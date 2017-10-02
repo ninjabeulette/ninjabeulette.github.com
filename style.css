@@ -1,0 +1,71 @@
+	footer{
+      background-color: black;
+      color: white;
+      padding: 15px;
+    }
+	
+	.test{
+	  width: 75%;
+	  float: left;
+	  margin-left: 5%;
+	}
+	
+	.red{
+      color:red;
+    }
+	
+	.form-area{
+      background-color: #FAFAFA;
+	  padding: 10px 40px 60px;
+	  margin: 10px 0px 60px;
+	  border: 1px solid GREY;
+	}
+	
+	.blogShort{ border-bottom:1px solid #ddd;}
+	.add{background: #333; padding: 10%; height: 300px;}
+	
+	.btn-blog {
+      color: #ffffff;
+      background-color: #37d980;
+      border-color: #37d980;
+      border-radius:0;
+      margin-bottom:10px
+	}
+	.btn-blog:hover,
+	.btn-blog:focus,
+	.btn-blog:active,
+	.btn-blog.active,
+	.open .dropdown-toggle.btn-blog {
+      color: white;
+      background-color:#34ca78;
+      border-color: #34ca78;
+	}
+	
+	img.pull-left.img-responsive.thumb.margin10.img-thumbnail{
+	  max-width: 20%;
+	}
+	
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content{height: 623px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav{
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav{
+        height: auto;
+        padding: 15px;
+      }
+      .row.content{height:auto;} 
+    }
